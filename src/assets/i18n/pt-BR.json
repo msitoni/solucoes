@@ -1,0 +1,79 @@
+{
+  "Telephone": "telefone",
+  "Menu" : {
+    "Home" : "HOME",
+    "About" : "SOBRE",
+    "Projects" : "PROJETOS",
+    "Clients" : "CLIENTES",
+    "ArchitecturesAndEngineerings" : "ARQUITETOS E ENGEHEIROS",
+    "Team" : "TIME",
+    "Contacts" : "CONTATO",
+    "SeeProject" : "Veja o Projeto"
+  },
+  "About" : {
+    "AboutUs" : "SOBRE NÓS",
+    "Title" : "Somos líderes na indústria de engenharia do design",
+    "Description" : {
+      "PhraseOne" : "Soluções integradas em projetos especiais em nível nacional e internacional",
+      "PhraseTwo" : "As conquistas que compõem nosso portfólio nos permitem conhecer ideias criativas e versáteis de arquitetura, design e engenharia, fornecendo segurança aos negócios, aprimorando o conteúdo, o modo e o método de trabalho.",
+      "PhraseTree" : "Já entregamos móveis em mais de 6 países.",
+      "PhraseFour" : "Nossa fábrica tem uma área total de 14.500m² e 7.500 m² de área construída.",
+      "PhraseFive" : "Certificado por 7 anos pelo Forest Stewardship Council (FSC®)."
+    },
+    "YearsExperience" : {
+      "Years" : "32",
+      "DescriptionYearsExperience" : {
+        "WordOne" : "Anos",
+        "WordTwo" : "de Experiência",
+        "WordTree" : "no Trabalho"
+      }
+    }
+  },
+  "WhatWeDo" : {
+    "WhatWeDo" : "O QUE NÓS FAZEMOS",
+    "Quality" : {
+      "Quality" : "Qualidade",
+      "Description" : {
+        "DescriptionOne" : "Resultados produtivos",
+        "DescriptionTwo" : "Políticas de Responsabilidade Social",
+        "DescriptionTree" : "Fonte da matéria-prima e destino apropriado dos resíduos",
+        "DescriptionFour" : "Conformidade com padrões regulatórios"
+      }
+    },
+    "Project" : {
+      "Project": "Prazo do projeto",
+      "Description" : {
+        "DescriptionOne" : "Capacidade produtiva",
+        "DescriptionTwo" : "Equilíbrio entre demanda e garantia de prazo"
+      }
+    },
+    "Price" : {
+      "Price" : "Preço",
+      "Description" : {
+        "DescriptionOne"  : "Conhecimento técnico produtivo",
+        "DescriptionTwo"  : "Orçamento completo",
+        "DescriptionTree" : "Projeto executivo consistente e detalhado",
+        "DescriptionFour" : "Análise conceitual e construtiva",
+        "DescriptionFive" : "sem aditivo"
+      }
+    },
+    "Description" :  {
+      "DescriptionOne" : "Nos apresentamos como uma empresa que se desenvolve, orientada para uma ampla gama de limites, com inteligência e economia, permitindo planejar cuidadosamente os resultados com precisão.",
+      "DescriptionTwo" : "Nosso relacionamento é transparente e ético, nosso comprometimento como fornecedores é o fator que garante a satisfação de nossos clientes."
+    }
+  },
+  "LatestProjects" : {
+    "type" : {
+      "Residential" : "RESIDENCIAL",
+      "Hotel" : "HOTEL",
+      "Store": "LOJA",
+      "Restaurant": "RESTAURANTE",
+      "Shopping": "SHOPPING",
+      "Building" : "EMPREENDIMENTOS"
+    },
+    "SeeProject" : "Veja o Projeto"
+  },
+  "CustomerTestimonials" : {
+    "Title" : "Depoimentos de nossos clientes"
+  }
+}

@@ -1,0 +1,47 @@
+
+    <header class="navbar boxed js-navbar">
+
+    <!-- Brand -->
+  <a class="brand" href="#">
+    <img alt="" src="assets/images/logo-clamom.jpg">
+  </a>
+
+  <!-- Phone -->
+  <address class="navbar-address visible-md visible-xl">{{ 'Telephone' | translate }} br: <span class="text-dark">(+55) 41 3386-7300</span></address>
+
+
+  <!-- Navigation -->
+  <nav class="nav navigation visible-lg">
+    <ul>
+      <li>
+        <a href="#main"> {{ 'Menu.Home' | translate }}</a>
+      </li>
+      <li>
+        <a href="#about"> {{ 'Menu.About' | translate }} </a>
+      </li>
+      <li>
+        <a href="#projects"> {{ 'Menu.Projects' | translate }} </a>
+      </li>
+      <li>
+        <a href="#clients"> {{ 'Menu.Clients' | translate }}</a>
+      </li>
+      <li>
+        <a href="#architectures"> {{ 'Menu.ArchitecturesAndEngineerings' | translate }} </a>
+      </li>
+      <li>
+        <a href="#team"> {{ 'Menu.Team' | translate }} </a>
+      </li>
+      <li>
+        <a href="#contacts"> {{ 'Menu.Contacts' | translate }} </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Spacer -->
+  <div class="navbar-spacer pull-right visible-lg"></div>
+
+  <app-social-network></app-social-network>
+
+  <app-select-locale></app-select-locale>
+
+</header>

@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  firebase : {
+    apiKey: "AIzaSyCDfEgHVO3r6IkJVJmavInCF3m3UDozi6g",
+    authDomain: "site-clamom.firebaseapp.com",
+    databaseURL: "https://site-clamom.firebaseio.com",
+    projectId: "site-clamom",
+    storageBucket: "site-clamom.appspot.com",
+    messagingSenderId: "195535202099",
+    appId: "1:195535202099:web:afcc5101ed20430c8e8046",
+    measurementId: "G-YMS25BNYDR"
+  }
+
 };
 
 /*

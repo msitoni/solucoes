@@ -1,0 +1,85 @@
+{
+  "Telephone": "call",
+  "Menu": {
+    "Home": "HOME",
+    "About": "ABOUT",
+    "Projects": "PROJECTS",
+    "Clients": "CLIENTS",
+    "ArchitecturesAndEngineerings": "ARCHITECTURES AND ENGINNERINGS",
+    "Team": "TEAM",
+    "Contacts": "CONTACTS",
+    "SeeProject": "See project"
+  },
+  "About": {
+    "AboutUs": "ABOUT US",
+    "Title": "We are a leader in design engineering industry",
+    "Description": {
+      "PhraseOne": "integrated solutions in special projects at a national and international level",
+      "PhraseTwo": "The achievements that make up our portfolio allow us to meet creative and versatile architectural, design and engineering ideas, providing bizness security to managers by improving content, mode and working method.",
+      "PhraseTree": "We have already delivered furniture in over 6 countries.",
+      "PhraseFour": "Our factory has a total area of 156,076.7 sqft and 80,729.33 sqft of built area.",
+      "PhraseFive": "Certified for 7 years by the Forest Stewardship Council (FSC®)."
+    },
+    "YearsExperience": {
+      "Years": "32",
+      "DescriptionYearsExperience": {
+        "WordOne": "Years",
+        "WordTwo": "Experience",
+        "WordTree": "Working"
+      }
+    }
+  },
+  "WhatWeDo": {
+    "WhatWeDo": "WHAT WE DO",
+    "Quality": {
+      "Quality": "Quality",
+      "Description": {
+        "DescriptionOne": "Productive results",
+        "DescriptionTwo": "Social Responsibility Policies",
+        "DescriptionTree": "Source of raw material and appropriate waste destination",
+        "DescriptionFour": "Compliance with regulatory standards"
+      }
+    },
+    "Project": {
+      "Project": "Project time frame",
+      "Description": {
+        "DescriptionOne": "Productive capacity",
+        "DescriptionTwo": "Balance between demand and deadline guarantee"
+      }
+    },
+    "Price": {
+      "Price": "Price",
+      "Description": {
+        "DescriptionOne": "Productive technical knowledge",
+        "DescriptionTwo": "Full budget",
+        "DescriptionTree": "Consistent and detailed executive design",
+        "DescriptionFour": "Conceptual and constructive analysis",
+        "DescriptionFive": "without additive"
+      }
+    },
+    "Description": {
+      "DescriptionOne": "We present ourselves as a company that develops, is oriented to a wide range of limits, with intelligence and economy, allowing us to carefully plan results with precision.",
+      "DescriptionTwo": "Our transparent and ethical relationship with the commitment of caterers are the factors that guarantee the satisfaction of our clientes."
+    }
+  },
+  "LatestProjects": {
+    "type": {
+      "Residential": "RESIDENTIAL",
+      "Hotel": "HOTEL",
+      "Store": "STORE",
+      "Restaurant": "RESTAURANT",
+      "Shopping": "SHOPPING",
+      "Building": "BUILDING"
+    },
+    "SeeProject": "See project"
+  },
+  "CustomerTestimonials" : {
+    "Title" : "From Great Our Clients"
+  }
+}
+
+
+
+
+
+

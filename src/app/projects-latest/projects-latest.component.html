@@ -1,0 +1,43 @@
+<owl-carousel [options]="carouselOptions" [items]="projectsLatest" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="item" *ngFor="let projects of projectsLatest;let i= index">
+      <a href="#project44" class="project-item item-shadow popup-with-zoom-anim hotel">
+        <img class="slide-image img-responsive" src="https://firebasestorage.googleapis.com/v0/b/site-clamom.appspot.com/o/projects%2F{{ projects.imageFile }}?alt=media">
+        <div class="project-hover">
+          <div class="project-hover-content">
+            <h3 class="project-title">
+
+                <span [ngSwitch]= projects.type>
+                    <span *ngSwitchCase="'RESIDENTIAL'">{{  'LatestProjects.type.Residential'   | translate  }}</span>
+                    <span *ngSwitchCase="'HOTEL'">{{  'LatestProjects.type.Hotel'   | translate  }}</span>
+                    <span *ngSwitchCase="'STORE'">{{  'LatestProjects.type.Store'   | translate  }}</span>
+                    <span *ngSwitchCase="'RESTAURANT'">{{  'LatestProjects.type.Restaurant'   | translate  }}</span>
+                    <span *ngSwitchCase="'SHOPPING'">{{  'LatestProjects.type.Shopping'   | translate  }}</span>
+                    <span *ngSwitchDefault></span>
+                </span>
+
+              {{ projects.description}} <br>{{ projects.city}} {{ projects.fileName}} </h3>
+          </div>
+        </div>
+        <span class="link-arrow">{{  'LatestProjects.SeeProject'   | translate  }} <i class="icon ion-ios-arrow-right"></i></span>
+      </a>
+    </div>
+  </owl-carousel>
+
+
+
+
+<!--
+
+          <img class="slide-image img-responsive" src="../../assets/images/projects/{{ projects.imageFile}}">
+
+  <div *ngFor="let projects of projectsLatest">
+      <p> imagem - {{ projects.fileName }} </p>
+      <div *ngFor="let img of projects.images">
+        <p>{{ img.description }}</p>
+      </div>
+  </div>
+-->
+
+
+
+

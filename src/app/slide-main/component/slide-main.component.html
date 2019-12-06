@@ -1,0 +1,30 @@
+<div class="rev_slider_wrapper">
+    <div id="rev_slider" class="rev_slider tp-overflow-hidden fullscreenbanner">
+
+<carousel>
+  <div *ngFor="let slide of slideMain">
+    <slide>
+      <div class='shape-position-right'><div class='shape-vertical'></div></div>
+      <div class='shape-position'><div class='shape-vertical'></div></div>
+      <div class='shape-position'><div class='shape-horizontal'></div></div>
+      <div class='shape-position-bottom'><div class='shape-horizontal'></div></div>
+      <img src="https://firebasestorage.googleapis.com/v0/b/site-clamom.appspot.com/o/slide-main%2F{{ slide.imageName }}?alt=media" title="{{ slide.description }}" style="display: block; width: 100%;">
+      <div class="carousel-caption d-none d-md-block">
+          <div class='position-place'>
+            <h3 class='slide-main-place'>{{ slide.place }}</h3>
+          </div>
+          <div class='position-description'>
+            <p class='slide-main-description'>{{ slide.description }}</p>
+        </div>
+        <div class='slide-see-project'>
+            <p class='slide-see-project-text link-arrow'>{{  'Menu.SeeProject' | translate  }} <i class="icon ion-ios-arrow-round-forward"></i></p>
+        </div>
+      </div>
+    </slide>
+  </div>
+</carousel>
+
+
+</div>
+</div>
+

@@ -26,6 +26,10 @@ import { ProjectsLatestComponent } from './projects-latest/projects-latest.compo
 import { GalleryGroupComponent } from './gallery-group/gallery-group.component';
 import { CustomerTestimonialsComponent } from './customer-testimonials/customer-testimonials.component';
 
+import { Globals } from './globals/globals';
+import { CustomerComponent } from './customer/customer.component';
+
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
@@ -41,7 +45,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MenuProjectsLatestComponent,
     ProjectsLatestComponent,
     GalleryGroupComponent,
-    CustomerTestimonialsComponent
+    CustomerTestimonialsComponent,
+    CustomerComponent,
   ],
   imports: [
     BrowserModule,
@@ -60,7 +65,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     CarouselModule.forRoot(),
     OwlModule
   ],
-  providers: [{ provide: FirestoreSettingsToken, useValue: {} }],
+  providers: [{ provide: FirestoreSettingsToken, useValue: {} }, Globals],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

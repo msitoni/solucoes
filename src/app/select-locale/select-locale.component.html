@@ -1,4 +1,5 @@
 <div class='select-language'>
-  <span (click)="switchLanguage('pt-BR')" class="language flag-icon flag-icon-br" title = 'Portuguese (BR)'></span>
-  <span (click)="switchLanguage('en')" class="language flag-icon flag-icon-gb" title = ' English (UK)'></span>
+    <span *ngFor="let language of languages;let i= index">
+      <span (click)="switchLanguage(language.locale, language.value)" class="language flag-icon {{ language.iconTag }} " title = '{{ language.title }}'></span>
+    </span>
 </div>

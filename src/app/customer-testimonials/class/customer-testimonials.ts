@@ -4,5 +4,6 @@ export class CustomerTestimonials {
   clientName: string;
   contactName: string;
   locale: CustomerTestimonialsLocale;
+  imageClient: string;
 }
 

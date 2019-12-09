@@ -3,6 +3,8 @@ import { map } from 'rxjs/operators';
 
 
 import { CustomerTestimonialsService } from './service/customer-testimonials.service'
+import { Globals } from '../globals/globals'
+
 
 @Component({
   selector: 'app-customer-testimonials',
@@ -12,9 +14,13 @@ import { CustomerTestimonialsService } from './service/customer-testimonials.ser
 export class CustomerTestimonialsComponent implements OnInit {
 
   customerTestimonials: any;
+  globals: Globals;
 
 
-  constructor(private customerTestimonialsService: CustomerTestimonialsService) { }
+  constructor(private customerTestimonialsService: CustomerTestimonialsService, globals: Globals) {
+    this.globals = globals;
+    console.log(globals);
+  }
 
   ngOnInit() {
     this.getCustomerTestimonialList();

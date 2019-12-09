@@ -1,37 +1,26 @@
 <!-- Section Clients -->
 <section id="clients" class="section-clients section bg-dots">
-
-
-
   <div class="container">
     <h2 class="section-title">{{  'CustomerTestimonials.Title'  | translate  }}</h2>
-
-    <owl-carousel [options]="carouselCustomer" [items]="customerTestimonials"
-      [carouselClasses]="['owl-theme', 'row', 'sliding']">
-      <div class="item client-carousel" *ngFor="let customer of customerTestimonials;let i= index">
-
+    <owl-carousel [options]="carouselCustomer" [items]="customerTestimonials" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+      <div class="item client-carousel" *ngFor="let cust of customerTestimonials;let i= index">
           <div class="client-carousel-item">
-            <img alt="" class="client-img" src="images/clients/microsoft.png">
+            <img alt="" class="client-img-client" src="https://firebasestorage.googleapis.com/v0/b/site-clamom.appspot.com/o/image-client%2F{{ cust.imageClient  }}?alt=media">
             <div class="client-box">
               <img alt="" class="image-quote" src="images/image-icons/icon-quote.png">
               <div class="client-title">
-                <span class="client-name">{{  customer.contactName  }}</span>
-                <span class="client-company">{{  customer.jobRole  }}</span>
+                <span class="client-name">{{  cust.contactName  }}</span>
+                <span class="client-company">{{ cust.locale[globals.idioma].jobRole }}</span>
               </div>
-              <p class="client-description">
-                {{  'CustomerTestimonials.ClientOne.Paragraph.One'  | translate  }}
+               <p class="client-description" *ngFor="let paragraph of cust.locale[globals.idioma].Paragraph;let i= index">
+                {{ paragraph }}
               </p>
 
             </div>
           </div>
-
-
-
-
       </div>
     </owl-carousel>
 
-
+    <app-customer></app-customer>
   </div>
-
 </section>

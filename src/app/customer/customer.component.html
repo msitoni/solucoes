@@ -1,0 +1,15 @@
+<div class="partner-carousel">
+
+    <owl-carousel [options]="carouselCustomerGallery" [items]="customers" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+
+
+    <div *ngFor="let customer of customers;let i= index">
+    <div class="partner-carousel-item">
+      <img alt="" src="../../assets/images/image-client/{{ customer.image }}">
+    </div>
+    </div>
+
+    </owl-carousel>
+</div>
+
+

@@ -1626,11 +1626,7 @@ opacity: 0.8;
   right: 3.28rem;
 }
 
-.client-img{
-  position: relative;
-  z-index: 1;
-  margin:0 0 -3rem 2.6rem;
-}
+
 
 .client-title{
   letter-spacing: 0;
@@ -3221,3 +3217,17 @@ z-index: 1;
     width: 41.66666667%;
 }
 }
+
+.client-img {
+  position: relative;
+  z-index: 1;
+  margin:0 0 -3rem 2.6rem;
+}
+
+.client-img-client {
+  position: relative;
+  z-index: 1;
+  margin:0 0 -3rem 2.6rem;
+  width: 35%!important;
+}
+

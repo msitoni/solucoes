@@ -11,7 +11,6 @@ export class CustomerTestimonialsService {
 
   constructor(private db: AngularFirestore) {
     this.customerTestimonialsRef = db.collection(this.dbPath);
-    console.log(this.customerTestimonialsRef);
   }
 
   private dbPath = 'customer-testimonials';
